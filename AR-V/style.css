@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+
+
+
+
+.nav-bar{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    border-bottom: 5px solid #022b3a;
+    background: #fff;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-right: 45%;
+}
+
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.search-bar{
+    text-align: center;
+    margin-left: 10%;
+    height: 50%;
+    border: 2px solid #4d45b1;
+    border-radius: 20px;
+}
+
+.content{
+    height: 100vh;
+    background-image: url(img/isin_platform-20220124-0001.jpg);
+
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+
+.content p{
+    text-align: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    padding: 13% 10% 0 40%;
+
+}
+
+
+.services{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.services h1, .services h3, .services p{
+    
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.services p{
+    font-size: 14px;
+}
+
+.services-items{
+    display: flex;
+    margin: 30px 10% 0 10%;
+    /* background: cyan; */
+}
+
+
+.ser-item{
+    margin: 0 5% 0 5%;
+
+}
+.ser-item img{
+    width: 90px;
+    transition: ease .5s;
+}
+
+.ser-item img:hover{
+    width: 100px;
+}
+
+.footer{
+    background-image: url(img/bottomarea-bg.png);
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.wrapper{
+    margin: 0 10% 0 10%;
+    padding-bottom: 5%;
+    display: flex;
+}
+
+.wrapper iframe{
+    margin-right: 20%;
+}
+
+.wrapper img{
+    width: 25px;
+}
+
+.wrapper p{
+    text-decoration: none;
+    text-align: right;
+}
+
+hr{
+    width: 50%;
+    margin: 50px 0 50px 25%;
+    
+
+}
+
+
+@media screen and (max-width: 900px){
+    .content p {
+        font-size: 14px;
+        padding: 40% 10% 0 10%;
+    }
+
+    .services-items {
+        display: block;
+    }
+
+    .wrapper{
+        display: block;
+    }
+
+    .wrapper p{
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+
+
